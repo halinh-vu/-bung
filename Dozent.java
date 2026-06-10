@@ -1,4 +1,4 @@
-public class Dozent {
+public class Dozent extends Person {
     private String fachgebiet;
     private int nummer;
     private boolean istGastdozent;
