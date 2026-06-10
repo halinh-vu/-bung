@@ -3,6 +3,7 @@ public class Student extends Person {
  private int anzahl;
 
  public Student(int alter, int anzahl){
+    super("", "");
     this.alter = alter;
     this.anzahl = anzahl;
  }
