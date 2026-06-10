@@ -3,11 +3,8 @@ public class Dozent extends Person {
     private int nummer;
     private boolean istGastdozent;
 
-    public Dozent(String fachgebiet, int nummer, boolean istGastdozent) {
-        super("", "");
-        this.fachgebiet = fachgebiet;
-        this.nummer = nummer;
-        this.istGastdozent = istGastdozent;
+    public Dozent(String nachname, String vorname){
+        super(nachname, vorname);
     }
 
     public String getFachgebiet() {

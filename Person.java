@@ -23,5 +23,9 @@ public class Person {
         return vorname;
     }
 
+    public void print() {
+    System.out.println(vorname + " " + nachname);
+}
+
 }
 
