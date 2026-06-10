@@ -6,4 +6,21 @@ public class Student extends Person {
     this.alter = alter;
     this.anzahl = anzahl;
  }
+
+public int getAlter() {
+    return alter;
+}
+
+public void setAlter(int alter) {
+    this.alter = alter;
+}
+
+public int getAnzahl() {
+    return anzahl;
+}
+
+public void setAnzahl(int anzahl) {
+    this.anzahl = anzahl;
+}
+
 }

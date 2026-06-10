@@ -8,4 +8,31 @@ public class Dozent extends Person {
         this.nummer = nummer;
         this.istGastdozent = istGastdozent;
     }
+
+    public String getFachgebiet() {
+        return fachgebiet;
+    }
+
+    public void setFachgebiet(String fachgebiet) {
+        this.fachgebiet = fachgebiet;
+    }
+
+    public int getNummer() {
+        return nummer;
+    }
+
+    public void setNummer(int nummer) {
+        this.nummer = nummer;
+    }
+
+    public boolean getIstGastdozent() {
+        return istGastdozent;
+    }
+
+    public void setIstGastdozent(boolean istGastdozent) {
+        this.istGastdozent = istGastdozent;
+    }
 }
+
+
+
